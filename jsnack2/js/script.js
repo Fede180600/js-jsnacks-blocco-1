@@ -7,5 +7,10 @@ for (let i = 0; i < 6; i++) {
     const userNumber = parseInt(prompt("Dimmi un numero"));
     console.log(userNumber);
     // Se è dispari lo inserisco nell'array
+    if (userNumber % 2 === 1) {
+        myArray.push(userNumber);
+    }
 }
+
+console.log(myArray);
 
