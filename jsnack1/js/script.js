@@ -12,3 +12,14 @@ const userSecondWordLength = userSecondWord.length;
 console.log("Prima parola:", userFirstWord, userFirstWordLength);
 console.log("Seconda parola:", userSecondWord, userSecondWordLength);
 // Stampo prima la parola più corta poi quella più lunga
+let result;
+
+if (userFirstWordLength > userSecondWordLength) {
+    result = `${userSecondWord} ${userFirstWord}`;
+} else if (userSecondWordLength > userFirstWordLength) {
+    result = `${userFirstWord} ${userSecondWord}`;
+} else {
+    result = `Le parole sono lunghe uguale.`;
+}
+// Output
+console.log(result);
