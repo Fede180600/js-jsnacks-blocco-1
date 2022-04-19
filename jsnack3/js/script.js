@@ -10,6 +10,8 @@ for (let i = 1; i <= 10; i++) {
     somma = somma + i;
 }
 
-console.log("Somma finale", somma);
+console.log("Somma finale:", somma);
 
 // Calcolarne la media
+const media = somma / 10;
+console.log("La media è:", media);
