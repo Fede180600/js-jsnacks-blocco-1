@@ -13,3 +13,5 @@ while (myNumbersSum) {
 }
 
 console.log("La somma dei numeri della cifra inserita è:", sum);
+// Stampo il risultato su display
+document.getElementById("my-title").innerHTML = `Il numero che hai inserito è ${userNumber}, la somma dei numeri che lo compongono è: ${sum}`
