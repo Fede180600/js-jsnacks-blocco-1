@@ -5,5 +5,10 @@ const userFirstWord = prompt("Dimmi la prima parola");
 const userSecondWord = prompt("Dimmi la seconda parola");
 
 // Verificho la lunghezza delle parole
+const userFirstWordLength = userFirstWord.length;
+const userSecondWordLength = userSecondWord.length;
 
+
+console.log("Prima parola:", userFirstWord, userFirstWordLength);
+console.log("Seconda parola:", userSecondWord, userSecondWordLength);
 // Stampo prima la parola più corta poi quella più lunga
