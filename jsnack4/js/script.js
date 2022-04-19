@@ -4,3 +4,12 @@
 const userNumber = parseInt(prompt("Inserisci un numero con 4 cifre"));
 console.log(userNumber);
 // Calcolo la somma delle cifre che compongono il numero inserito dall'utente
+let myNumbersSum = userNumber,
+    sum = 0;
+
+while (myNumbersSum) {
+    sum += myNumbersSum % 10;
+    myNumbersSum = Math.floor(myNumbersSum / 10);
+}
+
+console.log("La somma dei numeri della cifra inserita è:", sum);
